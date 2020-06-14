@@ -1,0 +1,27 @@
+{
+  "name": "JOCportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnycistudent/JOCportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnycistudent/JOCportfolio/issues"
+  },
+  "homepage": "https://github.com/johnnycistudent/JOCportfolio#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "chokidar-cli": "^2.1.0",
+    "node-sass-chokidar": "^1.4.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
+  }
+}
