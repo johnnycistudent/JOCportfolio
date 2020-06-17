@@ -1,9 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap");
+body {
+  font-size: 1rem; }
+
 /*---------------- Brand ----------------*/
 .navbar-brand {
-  font-family: 'Kadwa', serif; }
+  font-family: 'Kadwa', serif;
+  font-size: 2rem; }
 
 /*---------------- Navbar ----------------*/
 .navbar {
   padding: 1.5rem 3rem; }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2Fzc2V0cy9zY3NzL21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx1RkFBWTtBQUVaLDBDQUFBO0FBQ0E7RUFDSSwyQkFBMkIsRUFBQTs7QUFJL0IsMkNBQUE7QUFDQTtFQUNJLG9CQUFvQixFQUFBIiwiZmlsZSI6Im1haW4uY3NzIn0= */
+
+/*---------------- Intro Text ----------------*/
+.intro-text {
+  font-size: 2rem;
+  font-weight: 600; }
+
+/*---------------- Profile Image ----------------*/
+.profile_image {
+  width: 100%; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2Fzc2V0cy9zY3NzL21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx1RkFBWTtBQUVaO0VBQ0ksZUFBZSxFQUFBOztBQUduQiwwQ0FBQTtBQUNBO0VBQ0ksMkJBQTJCO0VBQzNCLGVBQWUsRUFBQTs7QUFJbkIsMkNBQUE7QUFDQTtFQUNJLG9CQUFvQixFQUFBOztBQUl4QiwrQ0FBQTtBQUVBO0VBQ0ksZUFBZTtFQUNmLGdCQUFnQixFQUFBOztBQUdwQixrREFBQTtBQUNBO0VBQ0ksV0FBVyxFQUFBIiwiZmlsZSI6Im1haW4uY3NzIn0= */
