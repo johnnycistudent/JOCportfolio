@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap");
 body {
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-left: 20px; }
 
 /*---------------- Brand ----------------*/
 .navbar-brand {
@@ -19,4 +21,10 @@ body {
 /*---------------- Profile Image ----------------*/
 .profile_image {
   width: 100%; }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2Fzc2V0cy9zY3NzL21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx1RkFBWTtBQUVaO0VBQ0ksZUFBZSxFQUFBOztBQUduQiwwQ0FBQTtBQUNBO0VBQ0ksMkJBQTJCO0VBQzNCLGVBQWUsRUFBQTs7QUFJbkIsMkNBQUE7QUFDQTtFQUNJLG9CQUFvQixFQUFBOztBQUl4QiwrQ0FBQTtBQUVBO0VBQ0ksaUJBQWlCO0VBQ2pCLGdCQUFnQixFQUFBOztBQUdwQixrREFBQTtBQUNBO0VBQ0ksV0FBVyxFQUFBIiwiZmlsZSI6Im1haW4uY3NzIn0= */
+
+/*---------------- Media Queries ----------------*/
+@media (min-width: 760px) {
+  body {
+    margin-right: 10%;
+    margin-left: 10%; } }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2Fzc2V0cy9zY3NzL21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx1RkFBWTtBQUVaO0VBQ0ksZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixpQkFBaUIsRUFBQTs7QUFHckIsMENBQUE7QUFDQTtFQUNJLDJCQUEyQjtFQUMzQixlQUFlLEVBQUE7O0FBSW5CLDJDQUFBO0FBQ0E7RUFDSSxvQkFBb0IsRUFBQTs7QUFJeEIsK0NBQUE7QUFFQTtFQUNJLGlCQUFpQjtFQUNqQixnQkFBZ0IsRUFBQTs7QUFHcEIsa0RBQUE7QUFDQTtFQUNJLFdBQVcsRUFBQTs7QUFHZixrREFBQTtBQUNBO0VBQ0k7SUFDSSxpQkFBaUI7SUFDakIsZ0JBQWdCLEVBQUEsRUFDbkIiLCJmaWxlIjoibWFpbi5jc3MifQ== */

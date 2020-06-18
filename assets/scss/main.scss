@@ -2,6 +2,8 @@
 
 body {
     font-size: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /*---------------- Brand ----------------*/ 
@@ -27,4 +29,12 @@ body {
 /*---------------- Profile Image ----------------*/
 .profile_image {
     width: 100%;
+}
+
+/*---------------- Media Queries ----------------*/
+@media (min-width: 760px) {
+    body {
+        margin-right: 10%;
+        margin-left: 10%; 
+    }
 }
