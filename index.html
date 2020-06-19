@@ -13,7 +13,9 @@
 	<link rel="stylesheet" href="dist/css/main.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
-	<!-- Favicon -->
+    <!-- Font Awesome --> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 
 	<title>JOC Portfolio</title>
@@ -51,13 +53,20 @@
                 <!----- Introduction ----->
 
                 <div class="intro col-md">
-                    <p class="intro-text">I'm John O'Connor, a Front-End Developer who enjoys creating and designing exciting user experiences.</p>
+                    <p class="intro-text">I'm John O'Connor, a Full Stack Developer who enjoys creating and designing exciting user experiences.</p>
 				</div>
 
                 <!----- Profile Photo ----->
 
-				<div class="portrait col-md">
-                    <img src="assets/images/Portrait_test.jpg" class="rounded profile_image" alt="profile_image">
+				<div class="portrait-container col-md">
+                    <div class="portrait">
+                        <img src="assets/images/profile_test2.jpg" class="profile_image" alt="profile_image">
+                        <div class="contact-me" a href="/" type="button">
+                            <span class="contact-me-text text-uppercase">Contact Me</span>
+                        </div>
+                    </div>
+                    
+
 				</div>
 
 			</div>
@@ -95,8 +104,26 @@
 
 	</div>
 
+    <footer class="footer d-flex mt-auto">
+        <div class="container-fluid text-center ">
+            <div class="text-center center-block ">
+                <br />
+                <!--- Social Media Links --->
+                <a href="https://github.com/johnnycistudent " target="_blank "><i class="fab fa-github fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/john-o-connor-527904170/ " target="_blank "><i id="social-li " class="fab fa-linkedin fa-3x social "></i></a>
+                <a href="https://www.facebook.com/john.oconnor.3139 " target="_blank "><i id="social-fb " class="fab fa-facebook-square fa-3x social "></i></a>
+                <a href="https://www.instagram.com/johnnyoco/ " target="_blank "><i id="social-in " class="fab fa-instagram fa-3x social "></i></a>
+                <!--- /Social Media Links --->
+            </div>
+            <div class="copyright ">
+                <span style="font-style:italic ">JOC © 2019</span>
+            </div>
+        </div>
+    </footer>
+
 
 	<!-- Optional JavaScript -->
+    <script src="https://kit.fontawesome.com/b5973b6792.js" crossorigin="anonymous"></script>
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
