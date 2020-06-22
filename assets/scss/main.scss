@@ -31,7 +31,7 @@ body {
     text-align: center;
 
     .portrait {
-        background-color: rgb(42,52,57);
+        background-color: #000; // previously rgb(42,52,57)
         display: flex;
         justify-content: center;
         align-items: center; 
@@ -64,6 +64,12 @@ body {
             }
         }
     }
+}
+
+/*---------------- Portfolio ----------------*/
+
+.website {
+    max-width: 100%;
 }
 
 /*---------------- Footer ----------------*/
