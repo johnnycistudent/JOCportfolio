@@ -72,6 +72,18 @@ body {
     max-width: 100%;
 }
 
+.website-container {
+  overflow: hidden;
+}
+
+.website-container img {
+  transition: transform .5s ease;
+}
+
+.website-container:hover img {
+  transform: scale(1.1);
+}
+
 /*---------------- Footer ----------------*/
 
 .social:hover {
