@@ -113,10 +113,18 @@ body {
     position: absolute;
     top: 30%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
     text-align: center;
+}
+
+.portfolio-details {
+    padding-top: 5px;
+}
+
+.portfolio-links {
+    padding-top: 10px;
 }
 
 /*---------------- Footer ----------------*/
